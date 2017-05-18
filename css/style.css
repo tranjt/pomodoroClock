@@ -1,0 +1,96 @@
+body{
+  background-color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.clock {
+  width: 400px;
+  box-shadow: 0 0 3px  3px rgba(6, 6, 6, 0.5);
+  margin:0 auto;
+}
+
+p.display  {
+
+  padding:12px 44px;
+  font-family:Arial;
+  font-size: 6rem;
+  color:#ffffff;
+  text-shadow:0px 1px 0px #528ecc;
+  background:-webkit-linear-gradient(top, #79bbff 5%, #378de5 100%);
+  background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+  margin: 0 auto;
+}
+
+.controlBtn {
+
+  padding: 10px;
+  background: #1b1c1b;
+  color:#ffffff;
+  /*text-shadow:0px 1px 0px #528ecc;*/
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+}
+
+.controlBtn .flexItem {
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  -o-flex: 1;
+  flex: 1;
+}
+
+button {
+  box-shadow:inset 0px 1px 0px 0px #dcecfb;
+  border-radius:6px;
+  border:1px solid #84bbf3;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:5px 10px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #528ecc;
+  background:linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+}
+
+label {
+  font-family:Arial;
+  font-size:1rem;
+    font-weight:bold;
+  padding:5px 10px;
+  text-decoration:none;
+  /*text-shadow:0px 1px 0px #528ecc;*/
+
+}
+
+button:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #80b5ea), color-stop(1, #bddbfa));
+  background:-moz-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+  background:-webkit-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+  background:-o-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+  background:-ms-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+  background:linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80b5ea', endColorstr='#bddbfa',GradientType=0);
+  background-color:#80b5ea;
+}
+
+
+.controller {
+  display:  flex;
+  flex-direction: row;
+  align-items: center;
+
+
+}
+.controller .incDec {
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  -o-flex: 1;
+  flex: 1;
+  min-width: 20px;
+}
